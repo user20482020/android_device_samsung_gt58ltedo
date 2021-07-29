@@ -1,4 +1,4 @@
-BUILD_FINGERPRINT=samsung/gt58wifixx/gt58wifi:7.1.1/NMF26X/T350XXU1CQJ5:user/release-keys
+BUILD_FINGERPRINT=samsung/gt58ltedo/gt58lte:7.1.1/NMF26X/T355YDOU1CRB3:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-  PRIVATE_BUILD_DESC="gt58wifixx-user 7.1.1 NMF26X T350XXU1CQJ5 release-keys"
+  PRIVATE_BUILD_DESC="gt58ltedo-user 7.1.1 NMF26X T355YDOU1CRB3 release-keys"

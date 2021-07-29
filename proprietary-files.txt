@@ -1,4 +1,4 @@
-# Samsung Package Version T350XXU1CQJ5_T350XAC1CQJ5_XAC (unless otherwise specified and/or tagged)
+# Samsung Package Version T355YDOU1CRB3_T355YODD1CRB2_INS (unless otherwise specified and/or tagged)
 
 # ACDBs
 etc/Bluetooth_cal.acdb:vendor/etc/Bluetooth_cal.acdb

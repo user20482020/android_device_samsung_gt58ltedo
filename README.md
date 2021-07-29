@@ -1,6 +1,6 @@
-# android_device_samsung_gt58wifi
+# android_device_samsung_gt58ltedo
 
-## Device tree for Samsung Galaxy Tab (A) SM-T350 [gt58wifi]
+## Device tree for Samsung Galaxy Tab (A) SM-T355Y [gt58ltedo]
 
 Basic   | Spec Sheet
 -------:|:-------------------------

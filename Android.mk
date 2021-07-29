@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),gt58wifi)
+ifeq ($(TARGET_DEVICE),gt58ltedo)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
