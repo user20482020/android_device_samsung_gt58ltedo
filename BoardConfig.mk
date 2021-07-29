@@ -14,9 +14,8 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /vendor/lib/hw/camera.vendor.msm8916.so=25 \
     /vendor/lib/hw/sensors.vendor.msm8916.so=25
 
-//FixMe: Use proper kernel config
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gt58lte_tmo_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gt58lte_aus_defconfig
 
 TARGET_PROVIDES_KEYMASTER := true
 
