@@ -24,7 +24,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
 # Partition sizes
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3145728000
-//ToDo: USERDATA Value (Obtained using `parted /dev/block/mmcblk0 unit B print`)
+#ToDo: USERDATA Value (Obtained using `parted /dev/block/mmcblk0 unit B print`)
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12138295296
 
 
