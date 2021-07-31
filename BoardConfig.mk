@@ -24,10 +24,10 @@
 # Inherit from common
 include device/samsung/gta-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/gt58wifi
+DEVICE_PATH := device/samsung/gt58ltedo
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gt58wifi,gt58wifixx,SM-T350
+TARGET_OTA_ASSERT_DEVICE := gt58ltedo,gt58ltexx,SM-T355Y
 
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /vendor/lib/hw/audio.primary.msm8916.so=25 \
@@ -35,7 +35,7 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /vendor/lib/hw/sensors.vendor.msm8916.so=25
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gt58wifi_eur_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gt58ltedo_aus_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
@@ -44,7 +44,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 BUILD_BROKEN_DUP_RULES := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_gt58wifi
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_gt58ltedo
 TARGET_RECOVERY_DEVICE_MODULES := $(DEVICE_PATH)/init
 
 # Partition sizes

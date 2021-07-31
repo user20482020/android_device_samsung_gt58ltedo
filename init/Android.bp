@@ -15,10 +15,10 @@
 //
 
 cc_library_static {
-    name: "libinit_gt58wifi",
+    name: "libinit_gt58ltedo",
     cpp_std: "experimental",
     recovery_available: true,
-    srcs: ["init_gt58wifi.cpp"],
+    srcs: ["init_gt58ltedo.cpp"],
     include_dirs: [
         "system/core/base/include",
         "system/core/init",
